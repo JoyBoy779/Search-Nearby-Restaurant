@@ -52,9 +52,10 @@ The test cases run queries against the initial dataset:
 
 The search space is defined by the Chebyshev distance, where \( d \) defines the side length of the search square around the query point.
 
-<img src="Comparison/test-case_visual_aid.jpg" alt="Test Case Visualization" width="550"/>
+<img src="Comparison/test-case_visual_aid.png" alt="Test Case Visualization" width="550"/>
+
 ---
 
 ## Comparative Analysis
 
-While other solutions like **K-d Trees** are commonly used, they often provide an average-case query time. The $O(m + \log^2 n)$ complexity achieved by the Range Tree and 2D Segment Tree, however, is a **guaranteed worst-case** bound for orthogonal range searching. This is a critical factor for systems requiring reliable, predictable performance, particularly when data is large and query patterns are adversarial.
+For a detailed analysis of the performance bounds and comparative superiority against alternatives like the K-d Tree, see [Optimization.md](Comparison/Optimization.md).

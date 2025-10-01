@@ -31,15 +31,15 @@ The search space is defined by the Chebyshev distance, where \( d \) defines the
 
 The following output confirms both the Range Tree and the 2D Segment Tree correctly identify the exact set of nearby points for each query:
 
-== Query 1: Location (5.0,5.0), Distance d=1.0 ==
+Query 1: Location (5.0,5.0), Distance d=1.0
 Range Tree Output: []
 2D Segment Tree Output: []
 
-== Query 2: Location (4.0,8.0), Distance d=2.0 ==
+Query 2: Location (4.0,8.0), Distance d=2.0
 Range Tree Output: [(3,7) (4,9)]
 2D Segment Tree Output: [(3,7) (4,9)]
 
-== Query 3: Location (10.0,2.0), Distance d=1.5 ==
+Query 3: Location (10.0,2.0), Distance d=1.5
 Range Tree Output: [(9,2)]
 2D Segment Tree Output: [(9,2)]
 

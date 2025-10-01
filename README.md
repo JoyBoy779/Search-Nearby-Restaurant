@@ -50,6 +50,9 @@ The test cases run queries against the initial dataset:
 | 2 | $(4.0, 8.0)$ | $2.0$ | $[2, 6] \times [6, 10]$ | [cite_start]`[(3,7), (4,9)]` [cite: 40] |
 | 3 | $(10.0, 2.0)$ | $1.5$ | $[9, 11] \times [1, 3]$ | [cite_start]`[(9,2)]` [cite: 41] |
 
+The search space is defined by the Chebyshev distance, where \( d \) defines the side length of the search square around the query point.
+
+<img src="Comparison/test-case_visual_aid.jpg" alt="Test Case Visualization" width="550"/>
 ---
 
 ## Comparative Analysis

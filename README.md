@@ -47,4 +47,4 @@ Range Tree Output: [(9,2)]
 
 ## Theoretical Justification
 
-For a detailed analysis of the performance bounds and comparative superiority against alternatives like the K-d Tree, see [comparison/Optimization.md](comparison/Optimization.md).
+For a detailed analysis of the performance bounds and comparative superiority against alternatives like the K-d Tree, see [Optimization.md](comparison/Optimization.md).

@@ -23,7 +23,7 @@ The solution provides a strong theoretical guarantee on query time, making it su
 
 The search space is defined by the Chebyshev distance, where \( d \) defines the side length of the search square around the query point.
 
-<img src="comparison/test-case_visual_aid.jpg" alt="Test Case Visualization" width="550"/>
+<img src="Comparison/test-case_visual_aid.png" alt="Test Case Visualization" width="550"/>
 
 ---
 
@@ -47,4 +47,4 @@ Range Tree Output: [(9,2)]
 
 ## Theoretical Justification
 
-For a detailed analysis of the performance bounds and comparative superiority against alternatives like the K-d Tree, see [Optimization.md](comparison/Optimization.md).
+For a detailed analysis of the performance bounds and comparative superiority against alternatives like the K-d Tree, see [Optimization.md](Comparison/Optimization.md).
